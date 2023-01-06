@@ -9,6 +9,7 @@ fn new_function(y:u64,f:char) {
     let z = {
         let e = 4;
         e + 2
+        println!('test')
     };
     println!("{z}")
 }
@@ -21,3 +22,4 @@ fn print() {
     let s = five();
     println!("{s} is the number after 4");
 }
+
