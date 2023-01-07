@@ -6,4 +6,9 @@ fn main() {
     } else {
         println!("condition was not met");
     }
+
+    let other_number = 4;
+        if other_number != 3 {
+            println!("number");
+        }
 }
