@@ -1,3 +1,3 @@
 fn main() {
-    let mut number = 4;
+    let mut number = 3;
 
