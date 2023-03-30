@@ -1,11 +1,16 @@
 fn main() {
-    let mut counter = 0;
+    let mut count = 0;
+    'counting_up: loop {
+        println!("count = {}", count);
+        let mut remaining = 10;
+        
+        loop {
+            println!("remaining = {}", remaining);
+            if remaining == 9 {
+                break;
+            }
+        }
 
-    let result: i32 = loop{
-        counter += 2;
-        if counter == 10 {
-            break counter * 2;
+        }
     }
-};
-    println!("The result is {result}");       
 }
