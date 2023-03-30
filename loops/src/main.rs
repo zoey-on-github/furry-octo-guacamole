@@ -1,5 +1,5 @@
 fn main() {
-    let mut number = 3;
+    let mut number = 4;
 
     while number != 0 {
         println!("{}!", number);
